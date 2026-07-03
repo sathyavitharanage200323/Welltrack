@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WellTrack" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Color (Dark Mode) -->
+        <item name="colorPrimary">@color/primary_light</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Secondary/Accent Color (Dark Mode) -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/primary_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Background Colors (Dark Mode) -->
+        <item name="android:colorBackground">#FF121212</item>
+        <item name="colorSurface">#FF121212</item>
+        <item name="colorOnSurface">@color/white</item>
+    </style>
+</resources>

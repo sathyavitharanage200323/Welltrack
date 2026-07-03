@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WellTrack" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Color -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Secondary/Accent Color -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/primary_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Surface Colors -->
+        <item name="colorSurfaceVariant">@color/blue_50</item>
+        <item name="colorOnSurfaceVariant">@color/primary_dark</item>
+        
+        <!-- Background Colors -->
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+    </style>
+
+    <style name="Theme.WellTrack" parent="Base.Theme.WellTrack" />
+    
+    <style name="Theme.WellTrack.NoActionBar" parent="Theme.WellTrack">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

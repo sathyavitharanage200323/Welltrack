@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WellTrack</string>
+    <string name="widget_description">Shows today\'s habit completion progress</string>
+
+    <string name="onboarding_1_title">Track Your Habits</string>
+    <string name="onboarding_1_description">Build healthy habits and track your daily progress with ease</string>
+
+    <string name="onboarding_2_title">Journal Your Moods</string>
+    <string name="onboarding_2_description">Log your emotions and visualize patterns with beautiful charts</string>
+
+    <string name="onboarding_3_title">Stay Hydrated</string>
+    <string name="onboarding_3_description">Get reminders to drink water and reach your daily hydration goals</string>
+</resources>
